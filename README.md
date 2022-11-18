@@ -57,3 +57,8 @@ Fora o circuito principal foram criados 7 subcircuitos para auxiliar e facilitar
 ## Circuito principal
 ![menu](main.JPG)
 ![menu](main2.JPG)
+
+## Equipe: 
+- Camila Vanessa de Matos Sousa
+- Pedro Rafael Pereira de Oliveira
+- Vinicius Inacio dos Santos
