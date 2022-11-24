@@ -84,12 +84,24 @@ Fora o circuito principal foram criados 7 subcircuitos para auxiliar e facilitar
     - A direita foram utilizados multiplexadores para selecionar qual horário será exibido no display.
         - Somente quando a entrada A, modo A, for ativo que será exibido o horário do alarme, caso contrário será o do Relogio Padrão.
 
-
 ![menu](D-E.JPG)
 
 ## Circuito principal
+
+![menu](https://github.com/MilaMatos/Simulador_Relogio/blob/main/gif%20layout.gif)
+- Irá iniciar com ambos os relógios do Alarme e o Padrão com 00:00:00
+- Pode-se alterar o horário do alarme ou do relógio alternando entre os modos usando o botão MODE e selecionar se irá alterar nos segundos, minutos ou horas indicado pelos leds S, M e H respectivamente, e apertar o botão ALTER, assim irá encrementar em uma unidade o elemento escolhido.
+    - As leds de cima só serão acesas quando estiverem no modo C ou A, ambos são estados de mudança manual mas de relógios diferentes.
+    - Para desligar a LED do alarme aperte o botão "Desligar Alarme", senão irá ficar ligado de modo indefinido.
+        - Para poder definir um novo alarme e aguardar o sinal do LED, caso a LED esteja ligada, precisará desligar o alarme primeiro, caso já esteja desligada pode fazer a alteração normalmente.
+- Para pausar altera o valor do pino PAUSE de forma que ficará pausado até desligar o mesmo.
+- Para resetar os relógios e voltar para 00:00:00, aperte o botão RST, mas se estiver no modo A irá resetar somente o horáro do alarme, no modo N ou C irá resetar o horário do Relógio Padrão. 
+- Após habilitar o pulso da simulação o relógio irá funcionar.
+
 ![menu](main.JPG)
 ![menu](main2.JPG)
+
+
 
 ## Equipe
 - Camila Vanessa de Matos Sousa
